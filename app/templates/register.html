@@ -13,10 +13,23 @@
       rel="stylesheet"
     />
   </head>
-  <body>
-    <div class="container">
+  <body
+    style="
+      background: linear-gradient(
+        90deg,
+        rgba(2, 0, 36, 1) 0%,
+        rgba(49, 54, 48, 1) 15%,
+        rgba(0, 212, 255, 1) 100%
+      );
+    "
+  >
+    <div class="container" style="width: 30dvw">
       <h1 class="text-center mb-4">Register</h1>
-      <form method="POST" action="{{ url_for('main.register') }}">
+      <form
+        method="POST"
+        action="{{ url_for('main.register') }}"
+        style="padding: 30px"
+      >
         {{ form.hidden_tag() }}
         <div class="mb-3">
           {{ form.username.label(class="form-label") }} {{
