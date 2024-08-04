@@ -13,6 +13,26 @@ body {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
+.login-container {
+  width: 25dvw !important;
+
+}
+
+.container-body {
+  height: 100dvh;
+  width: 100%;
+  box-sizing: border-box;
+  display: grid;
+  place-items: center;
+
+}
+
+.login-submit-btn {
+  grid-template-columns: 80px 80px;
+  justify-content: flex-end;
+
+}
+
 h1,
 h2,
 h3,

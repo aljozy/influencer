@@ -191,3 +191,6 @@ __pycache__/
 
 # Flask-Migrate migrations folder should be included
 !migrations/
+
+Dockerfile
+requirements.txt
