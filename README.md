@@ -35,25 +35,6 @@ Submit the form to create a new user.
 User Login
 Navigate to the login page.
 Enter your credentials and log in to access the platform.
-Project Structure
-arduino
-Copy code
-.
-├── app
-│   ├── __init__.py
-│   ├── main.py
-│   ├── models.py
-│   ├── routes.py
-│   ├── templates
-│   │   ├── base.html
-│   │   ├── register.html
-│   │   └── login.html
-│   └── static
-│       └── styles.css
-├── Dockerfile
-├── docker-compose.yml
-├── requirements.txt
-└── README.md
 app/: Contains the Flask application code.
 __init__.py: Initializes the Flask application.
 main.py: Entry point of the application.
