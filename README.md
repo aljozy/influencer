@@ -5,8 +5,8 @@ Table of Contents
 Prerequisites
 Installation
 Usage
-Project Structure
 Environment Variables
+Contributing
 License
 Prerequisites
 Docker
@@ -16,7 +16,7 @@ Clone the repository:
 
 bash
 Copy code
-git clone https://github.com/aljozy/influencer.git
+git clone https://github.com/yourusername/yourrepository.git
 cd yourrepository
 Build and run the containers:
 
@@ -35,22 +35,15 @@ Submit the form to create a new user.
 User Login
 Navigate to the login page.
 Enter your credentials and log in to access the platform.
-app/: Contains the Flask application code.
-__init__.py: Initializes the Flask application.
-main.py: Entry point of the application.
-models.py: Contains the database models.
-routes.py: Defines the routes and their corresponding views.
-templates/: Contains HTML templates.
-static/: Contains static files like CSS.
-Dockerfile: Dockerfile to build the Flask application container.
-docker-compose.yml: Docker Compose file to run the application and database containers.
-requirements.txt: Python dependencies.
 Environment Variables
 The application can be configured using the following environment variables:
 
 FLASK_APP: The name of the entry point module (default: main.py).
 FLASK_ENV: The environment in which the application is running (default: development).
 You can set these variables in a .env file at the root of the project.
+
+Contributing
+Contributions are welcome! Please fork the repository and submit a pull request with your changes. Ensure that your code follows the project's coding standards and includes appropriate tests.
 
 License
 This project is licensed under the MIT License - see the LICENSE file for details.
