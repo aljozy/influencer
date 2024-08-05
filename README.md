@@ -25,34 +25,42 @@ This repository contains a Flask-based Influencer Engagement and Sponsorship Coo
    cd yourrepository
 
 
-2.Build and run the containers:
+2.**Build and run the containers:**
 docker-compose up --build
 Access the application:
 
 3.Open your browser and go to http://localhost:5000.
 
-Usage
-Register a New User
-2.Navigate to the registration page.
-3.Fill out the registration form with the required details.
-4.Submit the form to create a new user.
+## Usage
 
-User Login
-1.Navigate to the login page.
-2.Enter your credentials and log in to access the platform.
+### Register a New User
 
-Environment Variables
+1. Navigate to the registration page.
+2. Fill out the registration form with the required details.
+3. Submit the form to create a new user.
+
+### User Login
+
+1. Navigate to the login page.
+2. Enter your credentials and log in to access the platform.
+
+## Environment Variables
+
 The application can be configured using the following environment variables:
 
-FLASK_APP: The name of the entry point module (default: main.py).
-FLASK_ENV: The environment in which the application is running (default: development).
-You can set these variables in a .env file at the root of the project.
+- `FLASK_APP`: The name of the entry point module (default: `main.py`).
+- `FLASK_ENV`: The environment in which the application is running (default: `development`).
 
-Contributing
+You can set these variables in a `.env` file at the root of the project.
+
+## Contributing
+
 Contributions are welcome! Please fork the repository and submit a pull request with your changes. Ensure that your code follows the project's coding standards and includes appropriate tests.
 
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
 
 
 
