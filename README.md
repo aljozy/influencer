@@ -1,40 +1,46 @@
-Flask 2-Tier Application
+# Flask 2-Tier Application
+
 This repository contains a Flask-based Influencer Engagement and Sponsorship Coordination Platform, containerized using Docker Compose. The application is built with Python, Flask, Jinja2 for templating, and SQLite as the database.
 
-Table of Contents
-Prerequisites
-Installation
-Usage
-Environment Variables
-Contributing
-License
-Prerequisites
-Docker
-Docker Compose
-Installation
-Clone the repository:
+## Table of Contents
 
-bash
-Copy code
-git clone https://github.com/yourusername/yourrepository.git
-cd yourrepository
-Build and run the containers:
+- [Prerequisites](#prerequisites)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Environment Variables](#environment-variables)
+- [Contributing](#contributing)
+- [License](#license)
 
-bash
-Copy code
+## Prerequisites
+
+- Docker
+- Docker Compose
+
+## Installation
+
+1. **Clone the repository:**
+
+   ```bash
+   git clone https://github.com/aljozy/influencer.git
+   cd yourrepository
+
+
+2.Build and run the containers:
 docker-compose up --build
 Access the application:
 
-Open your browser and go to http://localhost:5000.
+3.Open your browser and go to http://localhost:5000.
 
 Usage
 Register a New User
-Navigate to the registration page.
-Fill out the registration form with the required details.
-Submit the form to create a new user.
+2.Navigate to the registration page.
+3.Fill out the registration form with the required details.
+4.Submit the form to create a new user.
+
 User Login
-Navigate to the login page.
-Enter your credentials and log in to access the platform.
+1.Navigate to the login page.
+2.Enter your credentials and log in to access the platform.
+
 Environment Variables
 The application can be configured using the following environment variables:
 
@@ -47,4 +53,6 @@ Contributions are welcome! Please fork the repository and submit a pull request 
 
 License
 This project is licensed under the MIT License - see the LICENSE file for details.
+
+
 
