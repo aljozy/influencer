@@ -48,10 +48,6 @@ Copy code
 │   │   ├── base.html
 │   │   ├── register.html
 │   │   └── login.html
-              .
-              .
-              .
-
 │   └── static
 │       └── styles.css
 ├── Dockerfile
